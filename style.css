@@ -1,0 +1,37 @@
+#quote{
+    text-align: center;
+}
+
+#display{  
+    border-style: solid;
+    border-color: black;
+    padding: 2em;
+    margin-top: 7em;
+    margin-left: 4em;
+    margin-right: 4em;
+    text-align: center;
+
+}
+
+#buttons{
+    margin-top: 3em;
+    display: flex;
+    justify-content: center;
+    justify-content: space-around;
+}
+
+#start{
+    width:5em;
+    height:3em;
+}
+
+#finish{
+    width:5em;
+    height:3em;
+}
+
+#dt{
+    text-align: end;
+    margin-top:10%;
+
+}
