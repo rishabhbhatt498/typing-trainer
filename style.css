@@ -1,37 +1,52 @@
 #quote{
+    margin-top: 10vh;
     text-align: center;
+    margin-bottom: 15vh;
 }
 
 #display{  
+    width: 300px;
+    height: 100px;
     border-style: solid;
     border-color: black;
-    padding: 2em;
-    margin-top: 7em;
-    margin-left: 4em;
-    margin-right: 4em;
+    border-width: 3px;
+    font-size: 3em;
     text-align: center;
-
+    margin-left: auto;
+    margin-right: auto;
+    padding-top:25px;
 }
 
 #buttons{
     margin-top: 3em;
     display: flex;
     justify-content: center;
-    justify-content: space-around;
 }
 
 #start{
     width:5em;
     height:3em;
+    margin-right:6.5em;
+    background-color: #71f492;
+}
+#start:hover{
+    border-width: 3px;
 }
 
 #finish{
     width:5em;
     height:3em;
+    margin-left:6.5em;
+    background-color: coral;
+
 }
+#finish:hover{
+    border-width: 3px;
+}
+
 
 #dt{
     text-align: end;
-    margin-top:10%;
+    margin-top:7vh;
 
 }
