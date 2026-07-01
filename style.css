@@ -50,3 +50,7 @@
     margin-top:7vh;
 
 }
+
+.hidden_screen{
+    display: none;
+}
