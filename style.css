@@ -1,8 +1,31 @@
-#quote{
-    margin-top: 10vh;
+/* screen 1 */
+#homescreen{
+    align-content: center;
     text-align: center;
-    margin-bottom: 15vh;
 }
+#begin{
+    font-size: 2em;
+    width: 10em;
+    height: 3em;
+    margin-top: 5%;
+}
+
+/* screen 2 */
+#levelscreen{
+    align-content: center;
+    text-align: center;
+    margin-top: 15%;
+}
+.level_button{
+    font-size: large;
+    height:2em;
+    width:5em;
+    margin-inline:2em;
+    border-width: 3px;  
+}
+
+/* screen 3 */
+
 
 #display{  
     width: 300px;
@@ -45,12 +68,35 @@
 }
 
 
-#dt{
-    text-align: end;
-    margin-top:7vh;
+/* screen 4 */
 
+#statscreen{
+    text-decoration:underline;
+    align-content: center;
+    text-align: center;
 }
 
+#correct_ks{
+    color: greenyellow;
+}
+#wrong_ks{
+    color: red;
+}
+
+/* common elements and else */
+#quote{
+    margin-top: 10vh;
+    text-align: center;
+    margin-bottom: 15vh;
+}
+
+#dt{
+    position: fixed;
+    right:0;
+    bottom: 0;
+    margin: 1em;
+
+}
 .hidden_screen{
     display: none;
 }
